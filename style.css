@@ -7,3 +7,464 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.davidakoch.net
 */
+
+*{margin: 0; padding: 0; border: 0; outline: none}
+
+header {
+  background-image: url("./img/slides.png");
+  height: 775px;
+}
+
+.header-text {
+  width: 64%;
+  margin: 0 auto;
+}
+
+.top-header {
+  background-image: url("./img/JAL_layer.png");
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  height: 72px;
+  width: 190px;
+  border-bottom: 1px solid rgb(86, 86, 86);
+}
+
+.header-info {
+  margin-top: 25px; 
+}
+
+.header-info span {
+  float: right;
+  margin-left: 10px;
+}
+
+#header-envelope, .fa-phone {
+  background-color: white; 
+  border-radius: 60px;
+  padding: 0.25em 0.3em;
+  display: inline-block;
+}
+
+/*need to work on the font here
+  it's from the robot family supposedly
+*/
+.header-info p {
+  font-size: 14px;
+  color: rgb(255, 132, 0);
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5px; 
+}
+
+.nav-bar {
+  height: 90px;
+}
+
+.slider {
+  height: 445px;
+}
+
+/* add notes: i wasn't aware of any slider that can provide that level for free. I know of soliloquoy slider,
+but the lightbox is an extra add-on */
+/*this is another area that I want to fix up with the easy google fonts*/
+.security-text {
+  color: white;
+  margin-top: 75px; 
+}
+
+.security-text h2 {
+  margin-left: 25px;
+  font-size: 48px; 
+}
+
+.security-text h1 {
+  font-size: 85px; 
+  margin-left: 45px; 
+}
+
+/* again something else to try ez google fonts with*/
+.security-text p {
+  color: white;
+  margin-left: 25px;
+  font-size: 15px; 
+}
+
+.btn-what {
+  margin-top: 60px; 
+  margin-left: 25px; 
+  border-radius: 25px; 
+  width: 170px;
+  height: 50px;
+  color: rgb(255, 132, 0);
+}
+
+/*add some ez google font*/
+.btn-transparent {
+  margin-top: 60px; 
+  margin-left: 25px; 
+  border: 1px solid white;
+  border-radius: 25px; 
+  width: 170px;
+  height: 50px;
+  margin-left: 10px; 
+  background-color:rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.free-quote-form {
+  width: 320px;
+  margin-left: 34px;
+}
+
+.top {
+  height: 45px;
+  background-color: rgb(245, 132, 31);
+  color: rgb(255, 254, 253);
+}
+
+.top p {
+  padding-top: 12px;
+}
+
+/*this may have to change with ez google fonts*/
+.contact-us {
+  margin-left: 22px; 
+  font-size: 14px;
+}
+
+.middle-form {
+  height: 370px;
+  background-color: rgb(99, 99, 99);
+}
+
+/* I think the font-size will have to be handled by EZ google fonts*/
+.middle-form h3 {
+  padding-top: 36px;
+  margin-left: 22px;
+  color: rgb(199, 199, 199);
+  font-size: 30px;
+}
+
+.yellow-words, .yellow-number {
+  color: rgb(245, 132, 31);
+}
+
+/*ez google fonts..change with montserrant*/
+.middle-form p {
+  margin-left: 22px;
+  color: rgb(199, 199, 199);
+  font-size: 11px;
+  margin-right: 15px;
+  margin-bottom: 28px;
+}
+
+.form-group {
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 12px;
+}
+
+.form-control {
+  height: 39px;
+}
+
+/* again another font that needs to be changed */
+.free-quote-bottom {
+  height: 47px; 
+  background-color: rgb(19, 107, 173);
+  font-size: 13px;
+  color: white;
+  padding-left: 15px;
+}
+
+.fa-chevron-circle-right {
+  background-color: white;
+  color: rgb(19, 107, 173);
+  border-radius: 60px;
+  border: .25px solid white;
+  display: inline-block;
+  margin-left: 5px; 
+}
+
+section {
+  margin-bottom: -6px;
+}
+
+.about-us {
+  display: inline;
+  width: 1440px; 
+}
+
+.about-us-text {
+  margin-left: 280px;
+  width: 543px;
+  display: inline-block;
+}
+
+.adt-dealer {
+  display: inline-block;
+  height: 537px;
+  width: 597px;
+  background-image: url("./img/adt.png")
+}
+
+.adt-smart-technology {
+  background-image: url("./img/ADT-Smart-Technology.png");
+  height: 340px;
+}
+
+.btn-learn {
+  background-color: rgb(255, 132, 0);
+  margin-top: 255px; 
+  margin-left: 621px; 
+  border-radius: 25px; 
+  width: 205px;
+  height: 46px;
+  color: rgb(255, 255, 255);
+}
+
+.price-plan {
+  background-color: rgb(250, 250, 250);
+  height: 610px;
+}
+
+
+/*need to work with ez google fonts*/
+.choose-adt-plan {
+  color: black;
+  padding-top: 29px; 
+}
+
+/*need to correct with ez google fonts*/
+.budget-lifestyle {
+  color: blue;
+  margin-bottom: 47px;
+}
+
+.plan-options {
+  width: 66%;
+  margin: 0 auto;
+}
+
+#plans {
+  height: 414px;
+}
+
+#plans [class*='col-'] {
+      background-color: rgb(255, 255, 255);
+      background-clip: content-box;
+}
+
+/* again going to have to use ez google fonts */
+.option-title {
+      padding-top: 23px;
+      font-size: 19px;
+}
+
+.option-title-video {
+      padding-top: 23px;
+      font-size: 19px;
+      display: inline-block;
+}
+
+.option-price {
+  color: rgb(19, 107, 173);
+  margin-bottom: -10px;
+}
+
+.option-price span {
+  font-size: 45px; 
+}
+
+.fa-usd {
+  vertical-align: super;
+}
+
+.options-list li {
+  list-style-type: none;
+  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+  font-size: 9px;
+  margin-bottom: 13px;
+}
+
+.blue-line {
+  color: rgb(19, 107, 173);
+  font-weight: bold;
+}
+
+.options-list li.video-line {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.options-list li.blue-video-line {
+  color: rgb(19, 107, 173);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-contact1 {
+  border-radius: 25px; 
+  width: 100px;
+  height: 25px;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  font-size: 8px;
+  margin-top: 209px;
+}
+
+.btn-contact2 {
+  border-radius: 25px; 
+  width: 100px;
+  height: 25px;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  font-size: 8px;
+  margin-top: 124px;
+}
+
+.btn-contact3 {
+  border-radius: 25px; 
+  width: 100px;
+  height: 25px;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  font-size: 8px;
+  margin-top: 86px;
+}
+
+.btn-contact4 {
+  border-radius: 25px; 
+  width: 100px;
+  height: 25px;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  font-size: 8px;
+}
+
+.value {
+  height: 50px;
+}
+
+.best-value {
+  background-image: url("./img/best_value.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.footer-background {
+  height: 495px; 
+  background-color: rgb(39, 39, 39);
+}
+
+.footer-text {
+  width: 64%;
+  margin: 0 auto;
+  color: rgb(127, 127, 127);
+}
+
+#footer-info {
+  height: 103px;
+  border-bottom: 1px solid rgb(127, 127, 127);
+  padding-top: 32px;
+}
+
+.fa-map-marker, .fa-mobile, .fa-envelope-o {
+  color: rgb(215, 115, 7);
+}
+
+#footer-address i {
+  display: inline-block;
+  vertical-align: super;
+}
+
+#footer-address p, #footer-phone p, #footer-mail p {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#footer-phone, #footer-mail, #footer-icons {
+  padding-top: 7px;
+}
+
+#footer-envelope {
+   color: rgb(215, 115, 7);
+}
+
+#footer-icons i {
+  margin-left: 15px;
+}
+
+/*I just had to give up on the circles for the font. the css would have been time consuming and didn't look good*/
+
+#footer-misc {
+  height: 280px;
+  padding-top: 25px;
+}
+
+.footer_JAL {
+  background-image: url("./img/footer_JAL.png");
+  background-repeat: no-repeat;
+  height: 70px;
+}
+
+.footer_JAL_text {
+  background-image: url("./img/footer_JAL_text.png");
+  background-repeat: no-repeat;
+  height: 173px;
+  margin-top: 8px;
+  margin-left: -5px;
+}
+
+/* work on font size with ez google font */
+
+.links-title, .news-title, .newsletter-title {
+  margin-top: 26px;
+}
+
+/* work on font size with ez google font */
+
+.license-number {
+  color: rgb(224, 119, 6);
+}
+
+.footer-legal-text {
+  margin-top: 15px;
+  background-image: url("./img/footer-legal-text.png");
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 90px;
+}
+
+#nameform {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+#email {
+  background-color: rgb(59, 59, 59);
+  height: 36px;
+  width: 166px;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.newsletter-email {
+  width: 207px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 5px;
+}
+
+#newsletter-button {
+  background-color: rgb(39, 39, 39);
+  color: rgb(59, 115, 136);
+  height: 31px;
+  width: 35px;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+
+
