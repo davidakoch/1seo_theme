@@ -7,16 +7,20 @@
 get_header(); ?>
 
 <section>
-		<div class="about-us">
-		<!---this is where I'm going to have to add get the content, etc. in WordPress-->
-		<!--I'm going to have to remove the lorem ipsum text-->
-			<div class="about-us-text">
-
-			</div>
-			<div class="adt-dealer">
+		<div class="container-width">
+			<div class="row">
+				<div class="col-md-7">
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>		
+					<p><?php the_content(); ?></p>
+						<?php endwhile; else : ?>
+					<p><?php _e( 'Sorry, no pages found' ); ?></p>
+						<?php endif; ?>
+				</div>
+				<div class="col-md-5" id="adt-dealer">
+				</div>	
 			</div>
 		</div>
-	</section>
+</section>
 	<section>
 		<div class="adt-smart-technology">
 			<a href="#"><button type="button" class="btn btn-learn">LEARN MORE...</button></a> 	

@@ -73,10 +73,6 @@ ul.menu li a {
 	margin-right: 30px; 
 }
 
-ul.menu li a:active {
-  border-top: 1px solid white;
-}
-
 .slider {
   height: 445px;
 }
@@ -207,21 +203,8 @@ section {
   margin-bottom: -6px;
 }
 
-.about-us {
-  display: inline;
-  width: 1440px; 
-}
-
-.about-us-text {
-  margin-left: 280px;
-  width: 543px;
-  display: inline-block;
-}
-
-.adt-dealer {
-  display: inline-block;
+#adt-dealer {
   height: 537px;
-  width: 597px;
   background-image: url("./img/adt.png")
 }
 
