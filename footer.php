@@ -5,16 +5,16 @@
 					<div class="row">
 						<div class="col-md-3" id="footer-address">
 							<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
-							<p>123 Main Street<br>
-							Bristol, PA 19007</p>
+							<h6>123 Main Street<br>
+							Bristol, PA 19007</h6>
 						</div>
 						<div class="col-md-3" id="footer-phone">
 							<i class="fa fa-mobile fa-lg" aria-hidden="true"></i>
-							<p>Phone: (215) 900-6217</p>
+							<h6>Phone: (215) 900-6217</h6>
 						</div>
 						<div class="col-md-3" id="footer-mail">
 							<i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
-							<p>info@jalsecurity.com</p>
+							<h6>info@jalsecurity.com</h6>
 						</div>
 						<div class="col-md-3" id="footer-icons">
 							<i class="fa fa-twitter" aria-hidden="true"><a href="#"></a></i>
