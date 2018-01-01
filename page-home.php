@@ -30,7 +30,7 @@ get_header(); ?>
 		<div class="price-plan">
 			<div class="price-plan-text">
 				<h2 class="text-center choose-adt-plan">CHOOSE THE ADT PLAN</h2>
-				<h2 class="text-center budget-lifestyle">FOR YOUR BUDGET AND LIFESTYLE.</h2>
+				<h2 class="text-center budget-lifestyle">FOR YOUR BUDGET AND <strong>LIFESTYLE.</strong></h2>
 			</div>
 				<div class="plan-options">
 					<div class="container-width">
