@@ -15,9 +15,10 @@ header {
   height: 775px;
 }
 
+
 .header-text {
-  width: 64%;
-  margin: 0 auto;
+  width: 64% !important;
+  margin: 0 auto !important;
 }
 
 .top-header {
@@ -25,7 +26,6 @@ header {
   background-repeat: no-repeat;
   margin-top: 5px;
   height: 72px;
-  width: 190px;
   border-bottom: 1px solid rgb(86, 86, 86);
 }
 
@@ -138,11 +138,11 @@ but the lightbox is an extra add-on */
 }
 
 /* I think the font-size will have to be handled by EZ google fonts*/
-.middle-form h3 {
+
+.middle-form p {
   padding-top: 36px;
   margin-left: 22px;
   color: rgb(199, 199, 199);
-  font-size: 30px;
 }
 
 .yellow-words, .yellow-number {
@@ -246,8 +246,8 @@ section {
   margin: 0 auto;
 }
 
-#plans {
-  height: 414px;
+#option1, #option2, #option3, #option4 {
+	height: 414px;
 }
 
 #plans [class*='col-'] {
@@ -430,13 +430,7 @@ section {
   color: rgb(224, 119, 6);
 }
 
-.footer-legal-text {
-  margin-top: 15px;
-  background-image: url("./img/footer-legal-text.png");
-  background-repeat: no-repeat;
-  width: 900px;
-  height: 90px;
-}
+
 
 #nameform {
   margin-top: 21px;
@@ -466,5 +460,11 @@ section {
   margin-top: 4px;
 }
 
-
+.footer-legal-text {
+  margin-top: 255px;
+  background-image: url("./img/footer-legal-text.png");
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 90px;
+}
 

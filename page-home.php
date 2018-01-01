@@ -29,7 +29,7 @@ get_header(); ?>
 				<h2 class="text-center budget-lifestyle">FOR YOUR BUDGET AND LIFESTYLE.</h2>
 			</div>
 				<div class="plan-options">
-					<div class="container">
+					<div class="container-width">
 						<div class="row" id="plans">	
 							<div class="col-md-3 text-center" id="option1">
 								<p class="option-title">TRADITIONAL</p>

@@ -1,7 +1,7 @@
 <footer>
 		<div class="footer-background">
 			<div class="footer-text">
-				<div class="container" id="footer-info">
+				<div class="container-width" id="footer-info">
 					<div class="row">
 						<div class="col-md-3" id="footer-address">
 							<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="container" id="footer-misc">
+				<div class="container-width" id="footer-misc">
 					<div class="row">
 						<div class="col-md-3" id="misc-text">
 							<div class="footer_JAL"></div>

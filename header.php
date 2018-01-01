@@ -24,7 +24,7 @@
 			<div class="nav-bar">
 			</div>
 			<div class="slider">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-7 security-text">
 							<h2>GET ADT MONITORED</h2>
@@ -41,8 +41,8 @@
 									<p class="contact-us"><i class="fa fa-home" aria-hidden="true"></i>       CONTACT US FOR A FREE QUOTE!</p>
 								</div>
 								<div class="middle-form">
-									<h3>Starting at <span class="yellow-number">$36.99/mo</span></h3>
-									<p>36-month monitoring contract required. Termination fee applies. For full terms and conditions <span class="yellow-words">click here.</span></p>
+									<p class="starting">Starting at <span class="yellow-number">$36.99/mo</span></p>
+									<p class="36month">36-month monitoring contract required. Termination fee applies. For full terms and conditions <span class="yellow-words">click here.</span></p>
 								  <div class="form-group">
 								    	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name*" required>
 								  </div>
