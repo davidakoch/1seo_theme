@@ -21,8 +21,13 @@
 					</div>	
 				</div>	
 			</div>
-			<div class="nav-bar">
-			</div>
+				        <?php   
+							$defaults = array(
+								'theme_location' => 'primary'
+								   						
+				            );
+								wp_nav_menu( $defaults );
+						?>
 			<div class="slider">
 				<div class="container-fluid">
 					<div class="row">

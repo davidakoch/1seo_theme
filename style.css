@@ -56,8 +56,21 @@ header {
   margin-left: 5px; 
 }
 
-.nav-bar {
-  height: 90px;
+/*again I'm going to have to work on ez google fonts*/
+.menu {
+	height: 90px;
+	border-top: 1px solid rgb(124, 124, 124);
+	padding-top: 15px;
+}
+
+ul.menu li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+ul.menu li a {
+	color: white;
+	margin-right: 30px; 
 }
 
 .slider {
@@ -74,7 +87,7 @@ but the lightbox is an extra add-on */
 
 .security-text h2 {
   margin-left: 25px;
-  font-size: 48px; 
+  font-size: 45px; 
 }
 
 .security-text h1 {
@@ -90,7 +103,7 @@ but the lightbox is an extra add-on */
 }
 
 .btn-what {
-  margin-top: 60px; 
+  margin-top: 45px; 
   margin-left: 25px; 
   border-radius: 25px; 
   width: 170px;
@@ -100,7 +113,7 @@ but the lightbox is an extra add-on */
 
 /*add some ez google font*/
 .btn-transparent {
-  margin-top: 60px; 
+  margin-top: 45px; 
   margin-left: 25px; 
   border: 1px solid white;
   border-radius: 25px; 
