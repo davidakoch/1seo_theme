@@ -471,6 +471,8 @@ ul#menu-new-menu li a:active {
 
 .license-number {
   color: rgb(224, 119, 6);
+  font-weight: bold;
+  font-size: 17px;
 }
 
 #nameform {
