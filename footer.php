@@ -48,7 +48,9 @@
 								<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								<!-- gets the code for posts the blog page from content.php-->
 									<a href="<?php the_permalink(); ?>">
-									<p><?php the_title(); ?></p>
+									<ul>
+									<li><p class="news-post"><?php the_title(); ?></p></li>
+									</ul>
 								<?php endwhile; else : ?>
 								<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 								<?php endif; ?>
