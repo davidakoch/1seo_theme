@@ -44,6 +44,14 @@
 						</div>
 						<div class="col-md-3">
 							<p class="news-title">LATEST NEWS</p>
+								<?php query_posts('post_type=post&post_status=publish&posts_per_page=3&paged='. get_query_var('paged')); ?>
+								<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+								<!-- gets the code for posts the blog page from content.php-->
+									<a href="<?php the_permalink(); ?>">
+									<p><?php the_title(); ?></p>
+								<?php endwhile; else : ?>
+								<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+								<?php endif; ?>
 						</div>
 						<div class="col-md-3">
 							<p class="newsletter-title">NEWSLETTER SIGNUP</p>
