@@ -25,7 +25,8 @@
 			</div>
 				        <?php   
 							$defaults = array(
-								'theme_location' => 'primary'
+								'theme_location' => 'primary',
+								'container_class' => 'primary_menu' 	
 								   						
 				            );
 								wp_nav_menu( $defaults );

@@ -16,7 +16,8 @@ add_action( 'wp_enqueue_scripts', 'my_assets');
 function register_my_menus() {
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu')
+			'primary' => __( 'Primary Menu'),
+			'new-menu' => __( 'New Menu ')
 		)
 	);
 }

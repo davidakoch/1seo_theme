@@ -34,6 +34,13 @@
 						</div>
 						<div class="col-md-3">
 							<p class="links-title">QUICK LINKS</p>
+						<?php   
+							$defaults = array(
+								'theme_location' => 'new-menu',
+								'container_class' => 'new_menu_class' 						
+				            );
+								wp_nav_menu( $defaults );
+						?>
 						</div>
 						<div class="col-md-3">
 							<p class="news-title">LATEST NEWS</p>

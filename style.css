@@ -57,18 +57,18 @@ header {
 }
 
 /*again I'm going to have to work on ez google fonts*/
-.menu {
+ul#menu-primary-menu {
 	height: 90px;
 	border-top: 1px solid rgb(124, 124, 124);
 	padding-top: 15px;
 }
 
-ul.menu li {
+ul#menu-primary-menu li {
 	display: inline-block;
 	list-style-type: none;
 }
 
-ul.menu li a {
+ul#menu-primary-menu li a {
 	color: white;
 	margin-right: 30px; 
 }
