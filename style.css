@@ -45,9 +45,6 @@ header {
   display: inline-block;
 }
 
-/*need to work on the font here
-  it's from the robot family supposedly
-*/
 .header-info p {
   font-size: 14px;
   color: rgb(255, 132, 0);
@@ -97,7 +94,6 @@ but the lightbox is an extra add-on */
   font-weight: bold; 
 }
 
-/* again something else to try ez google fonts with*/
 .security-text p {
   color: white;
   margin-left: 25px;
@@ -236,8 +232,6 @@ section {
   height: 610px;
 }
 
-
-/*need to work with ez google fonts*/
 .choose-adt-plan {
   color: black;
   padding-top: 50px; 
@@ -246,7 +240,6 @@ section {
   margin-top: 7px;
 }
 
-/*need to correct with ez google fonts*/
 .budget-lifestyle {
   color: blue;
   margin-bottom: 47px;
@@ -266,7 +259,6 @@ section {
       background-clip: content-box;
 }
 
-/* again going to have to use ez google fonts */
 .option-title {
       padding-top: 23px;
       font-size: 19px;
@@ -322,7 +314,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 209px;
+  margin-top: 215px;
 }
 
 .btn-contact2 {
@@ -332,7 +324,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 131px;
+  margin-top: 136px;
 }
 
 .btn-contact3 {
@@ -342,7 +334,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 99px;
+  margin-top: 101px;
 }
 
 .btn-contact4 {
@@ -363,6 +355,7 @@ section {
   background-image: url("./img/best_value.png");
   background-repeat: no-repeat;
   display: inline-block;
+  width: 212px;
 }
 
 .footer-background {
@@ -430,8 +423,6 @@ section {
   margin-left: -5px;
 }
 
-/* work on font size with ez google font */
-
 .links-title, .newsletter-title {
   margin-top: 26px;
 }
@@ -482,13 +473,9 @@ ul#menu-new-menu li a:active {
   font-size: 10px;
 }
 
-/* work on font size with ez google font */
-
 .license-number {
   color: rgb(224, 119, 6);
 }
-
-
 
 #nameform {
   margin-top: 21px;
