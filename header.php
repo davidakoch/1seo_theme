@@ -50,7 +50,7 @@
 								</div>
 								<div class="middle-form">
 									<p class="starting">Starting at <span class="yellow-number">$36.99/mo</span></p>
-									<p class="36month">36-month monitoring contract required. Termination fee applies. For full terms and conditions <span class="yellow-words">click here.</span></p>
+									<p class="months">36-month monitoring contract required. Termination fee applies. For full terms and conditions <span class="yellow-words">click here.</span></p>
 								  <div class="form-group">
 								    	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name*" required>
 								  </div>

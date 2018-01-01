@@ -87,12 +87,14 @@ but the lightbox is an extra add-on */
 
 .security-text h2 {
   margin-left: 25px;
-  font-size: 45px; 
+  font-size: 42px; 
+  font-weight: bold;
 }
 
 .security-text h1 {
   font-size: 85px; 
   margin-left: 45px; 
+  font-weight: bold; 
 }
 
 /* again something else to try ez google fonts with*/
@@ -148,27 +150,32 @@ but the lightbox is an extra add-on */
 .middle-form {
   height: 370px;
   background-color: rgb(99, 99, 99);
+  padding-top: 35px;
 }
 
-/* I think the font-size will have to be handled by EZ google fonts*/
-
-.middle-form p {
-  padding-top: 36px;
+.starting {
+  font-size: 24px; 
+  padding-top: 15px;
   margin-left: 22px;
   color: rgb(199, 199, 199);
 }
 
-.yellow-words, .yellow-number {
+.yellow-number {
   color: rgb(245, 132, 31);
+  font-weight: bold;
+  font-size: 28px;
 }
 
-/*ez google fonts..change with montserrant*/
-.middle-form p {
+.yellow-words {
+  font-size: 9px;
+  color: rgb(245, 132, 31);
+  font-weight: bold;
+}
+
+.months {
   margin-left: 22px;
-  color: rgb(199, 199, 199);
   font-size: 11px;
-  margin-right: 15px;
-  margin-bottom: 28px;
+  color: rgb(199, 199, 199);
 }
 
 .form-group {
@@ -459,7 +466,6 @@ ul#menu-new-menu li a:active {
 }
 
 #latestNews {
-
 }
 
 #newsletter {
