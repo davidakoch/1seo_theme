@@ -42,20 +42,22 @@
 								wp_nav_menu( $defaults );
 						?>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3" id="latestNews">
 							<p class="news-title">LATEST NEWS</p>
 								<?php query_posts('post_type=post&post_status=publish&posts_per_page=3&paged='. get_query_var('paged')); ?>
 								<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								<!-- gets the code for posts the blog page from content.php-->
-									<a href="<?php the_permalink(); ?>">
-									<ul>
-									<li><p class="news-post"><?php the_title(); ?></p></li>
-									</ul>
+									<div class="news-list">
+										<a href="<?php the_permalink(); ?>">
+										<ul>
+										<li><span class="news-post"><?php the_title(); ?></span></li>
+										</ul>
+									</div>
 								<?php endwhile; else : ?>
 								<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 								<?php endif; ?>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3" id="newsletter">
 							<p class="newsletter-title">NEWSLETTER SIGNUP</p>
 							<div class="newsletter-email">
 								<form method="get" id="nameform">
