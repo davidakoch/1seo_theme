@@ -204,7 +204,8 @@ section {
 }
 
 #adt-dealer {
-  height: 537px;
+  height: 543px;
+  background-repeat: no-repeat;
   background-image: url("./img/adt.png")
 }
 
@@ -321,7 +322,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 130px;
+  margin-top: 124px;
 }
 
 .btn-contact3 {
@@ -331,7 +332,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 100px;
+  margin-top: 86px;
 }
 
 .btn-contact4 {
@@ -341,7 +342,6 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 22px;
 }
 
 .value {
