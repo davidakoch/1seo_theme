@@ -321,7 +321,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 124px;
+  margin-top: 130px;
 }
 
 .btn-contact3 {
@@ -331,7 +331,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
-  margin-top: 86px;
+  margin-top: 100px;
 }
 
 .btn-contact4 {
@@ -341,6 +341,7 @@ section {
   background-color: rgb(255, 132, 0);
   color: white;
   font-size: 8px;
+  margin-top: 22px;
 }
 
 .value {
