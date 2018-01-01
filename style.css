@@ -73,6 +73,10 @@ ul.menu li a {
 	margin-right: 30px; 
 }
 
+ul.menu li a:active {
+  border-top: 1px solid white;
+}
+
 .slider {
   height: 445px;
 }

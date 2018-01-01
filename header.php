@@ -5,6 +5,8 @@
 		<?php bloginfo('name'); ?> | 
 		<?php is_front_page() ? bloginfo('description') : wp_title(); ?>	
 	</title>
+	<meta name="keywords" content="JAL ADT Security Bristol authorized dealer"/>
+	<meta name="description" content="JAL is an authorized dealer in Bristol of ADT Security."/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php wp_head(); ?>
 </head>
