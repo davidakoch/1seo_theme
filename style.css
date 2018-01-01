@@ -240,9 +240,10 @@ section {
 /*need to work with ez google fonts*/
 .choose-adt-plan {
   color: black;
-  padding-top: 29px; 
+  padding-top: 50px; 
   line-height: 0;
   font-weight: 400;
+  margin-top: 7px;
 }
 
 /*need to correct with ez google fonts*/
