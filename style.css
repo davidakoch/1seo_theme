@@ -354,7 +354,7 @@ section {
 }
 
 .footer-background {
-  height: 495px; 
+  height: 500px; 
   background-color: rgb(39, 39, 39);
 }
 
@@ -466,5 +466,6 @@ section {
   background-repeat: no-repeat;
   width: 900px;
   height: 90px;
+  margin-left: 9px;
 }
 
